@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28E1BF0321492FDC003D5623 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1BF0221492FDC003D5623 /* TestViewController.swift */; };
 		90B4196D21456E4D0096F470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B4196C21456E4D0096F470 /* AppDelegate.swift */; };
 		90B4196F21456E4D0096F470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B4196E21456E4D0096F470 /* ViewController.swift */; };
 		90B4197221456E4D0096F470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B4197021456E4D0096F470 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		90B4197721456E500096F470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B4197521456E500096F470 /* LaunchScreen.storyboard */; };
 		90B4198221456E510096F470 /* actionflotingbuttonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B4198121456E510096F470 /* actionflotingbuttonTests.swift */; };
 		90B4198D21456E510096F470 /* actionflotingbuttonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B4198C21456E510096F470 /* actionflotingbuttonUITests.swift */; };
+		90B4199C21456E640096F470 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B4199A21456E640096F470 /* ActionButton.swift */; };
+		90B4199D21456E640096F470 /* ActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B4199B21456E640096F470 /* ActionButtonItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28E1BF0221492FDC003D5623 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		90B4196921456E4D0096F470 /* actionflotingbutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = actionflotingbutton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B4196C21456E4D0096F470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90B4196E21456E4D0096F470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		90B4198821456E510096F470 /* actionflotingbuttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = actionflotingbuttonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B4198C21456E510096F470 /* actionflotingbuttonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actionflotingbuttonUITests.swift; sourceTree = "<group>"; };
 		90B4198E21456E510096F470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B4199A21456E640096F470 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		90B4199B21456E640096F470 /* ActionButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				90B4196C21456E4D0096F470 /* AppDelegate.swift */,
 				90B4196E21456E4D0096F470 /* ViewController.swift */,
+				90B4199A21456E640096F470 /* ActionButton.swift */,
+				90B4199B21456E640096F470 /* ActionButtonItem.swift */,
 				90B4197021456E4D0096F470 /* Main.storyboard */,
 				90B4197321456E500096F470 /* Assets.xcassets */,
 				90B4197521456E500096F470 /* LaunchScreen.storyboard */,
 				90B4197821456E500096F470 /* Info.plist */,
+				28E1BF0221492FDC003D5623 /* TestViewController.swift */,
 			);
 			path = actionflotingbutton;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E1BF0321492FDC003D5623 /* TestViewController.swift in Sources */,
 				90B4196F21456E4D0096F470 /* ViewController.swift in Sources */,
 				90B4196D21456E4D0096F470 /* AppDelegate.swift in Sources */,
+				90B4199D21456E640096F470 /* ActionButtonItem.swift in Sources */,
+				90B4199C21456E640096F470 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CF4QM4CNHN;
+				DEVELOPMENT_TEAM = 4755664329;
 				INFOPLIST_FILE = actionflotingbutton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,7 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CF4QM4CNHN;
+				DEVELOPMENT_TEAM = 4755664329;
 				INFOPLIST_FILE = actionflotingbutton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
